@@ -143,7 +143,7 @@ As the assignment ask 'use descriptive activity names to name the activities in 
 
     DTT <- DTT %>% transmute(num_act=NULL)
     
-Now, we are goint to get a new dataset, with the mean of the values for every subject and activity:
+Now, we are goint to get a new dataset, with the mean of the values for every subject and activity, than that meets the principles of tidy dataset (each variable is in one column, and each different observation of that variable is in a different row):
 
     DTM <- DTT %>% group_by(subject,activity) %>% summarise_each(funs(mean))
 
