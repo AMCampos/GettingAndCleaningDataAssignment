@@ -31,7 +31,7 @@ The steps to get the tidy dataset:
  5. Create a new and independent data set with the average of each variable
  
 ###Cleaning of the data
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
+(For more information: [https://github.com/AMCampos/GettingAndCleaningDataAssignment/blob/master/README.md])
 
 Once the files are loaded, I change some column names and, as there were some duplicate columns in the features.txt file, I fixed it. I combine the dataset (first the test data, and second the train data) in a new data set (it has all the information: test + train). 
 
